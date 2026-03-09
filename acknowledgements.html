@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoodView — Acknowledgements</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; margin-top: 32px; }
+    p, li { font-size: 15px; }
+    .intro { color: #666; margin-bottom: 24px; }
+    .item { background: #f8f8f8; border-radius: 10px; padding: 14px; margin-bottom: 10px; }
+    .item-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+    .item-name { font-size: 15px; font-weight: 600; }
+    .badge { padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 600; }
+    .badge-required { background: #FFF3E0; color: #E65100; }
+    .badge-optional { background: #f0f0f0; color: #888; border: 1px solid #ddd; }
+    .item-desc { font-size: 13px; color: #666; margin-bottom: 6px; }
+    .item-link { font-size: 12px; color: #007AFF; text-decoration: none; }
+    .item-link:hover { text-decoration: underline; }
+    a { color: #007AFF; }
+  </style>
+</head>
+<body>
+  <h1>Acknowledgements</h1>
+
+  <p class="intro">GoodView is built with the help of many open-source projects and public data sources. Thank you to all contributors.</p>
+
+  <h2>Required Attribution</h2>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">OpenStreetMap</span>
+      <span class="badge badge-required">ODbL</span>
+    </div>
+    <p class="item-desc">Scenic view location data from OpenStreetMap contributors.</p>
+    <a class="item-link" href="https://www.openstreetmap.org/copyright">openstreetmap.org/copyright</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">Open-Meteo</span>
+      <span class="badge badge-required">CC BY 4.0</span>
+    </div>
+    <p class="item-desc">Weather forecasts, current conditions, and visibility data.</p>
+    <a class="item-link" href="https://open-meteo.com/">open-meteo.com</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">MapBox</span>
+      <span class="badge badge-required">Mapbox ToS</span>
+    </div>
+    <p class="item-desc">Map rendering, outdoor map styles, and offline maps.</p>
+    <a class="item-link" href="https://www.mapbox.com/legal/tos">mapbox.com/legal/tos</a>
+  </div>
+
+  <h2>Public Domain Sources</h2>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">NPS Symbol Library</span>
+      <span class="badge badge-optional">Public Domain</span>
+    </div>
+    <p class="item-desc">U.S. National Park Service symbol set used for map icons.</p>
+    <a class="item-link" href="https://www.nps.gov/subjects/hfc/symbol-library.htm">nps.gov/subjects/hfc/symbol-library.htm</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">NASA VIIRS DNB</span>
+      <span class="badge badge-optional">Public Domain</span>
+    </div>
+    <p class="item-desc">Nighttime satellite imagery used for light pollution (Bortle class) calculations.</p>
+    <a class="item-link" href="https://www.earthdata.nasa.gov/">earthdata.nasa.gov</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">NPS API</span>
+      <span class="badge badge-optional">Public Domain</span>
+    </div>
+    <p class="item-desc">National Park Service data for scenic viewpoints within U.S. national parks.</p>
+    <a class="item-link" href="https://developer.nps.gov/">developer.nps.gov</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">GNIS (USGS)</span>
+      <span class="badge badge-optional">Public Domain</span>
+    </div>
+    <p class="item-desc">Geographic Names Information System for supplementary scenic feature data.</p>
+    <a class="item-link" href="https://www.usgs.gov/tools/geographic-names-information-system-gnis">usgs.gov — GNIS</a>
+  </div>
+
+  <h2>Open Source Libraries</h2>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">SunCalc</span>
+      <span class="badge badge-optional">BSD-2</span>
+    </div>
+    <p class="item-desc">Sun position and sunrise/sunset calculations by Vladimir Agafonkin.</p>
+    <a class="item-link" href="https://github.com/mourner/suncalc">github.com/mourner/suncalc</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">MaterialCommunityIcons</span>
+      <span class="badge badge-optional">SIL OFL 1.1</span>
+    </div>
+    <p class="item-desc">Icon set used throughout the app's user interface.</p>
+    <a class="item-link" href="https://materialdesignicons.com/">materialdesignicons.com</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">React Native / Expo</span>
+      <span class="badge badge-optional">MIT</span>
+    </div>
+    <p class="item-desc">Cross-platform mobile framework by Meta and Expo.</p>
+    <a class="item-link" href="https://github.com/expo/expo">github.com/expo/expo</a>
+  </div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-name">Supabase</span>
+      <span class="badge badge-optional">Apache 2.0</span>
+    </div>
+    <p class="item-desc">Open source backend for authentication, database, and storage.</p>
+    <a class="item-link" href="https://github.com/supabase/supabase">github.com/supabase/supabase</a>
+  </div>
+</body>
+</html>
